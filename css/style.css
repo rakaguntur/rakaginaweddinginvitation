@@ -1,0 +1,148 @@
+/* =============== FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+
+/* ======================================== X-Small devices (portrait phones, less than 576px) ======================================== */
+@media (max-width: 575.98px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -60px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 50px;
+    width: 70%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 2rem;
+    font-size: 25px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 30px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou h1 {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  .footer {
+    background-color: white;
+  }
+
+  .footer p {
+    color: black;
+  }
+}
+/* ======================================== AKHIR X-Small devices (portrait phones, less than 576px) ======================================== *
+
