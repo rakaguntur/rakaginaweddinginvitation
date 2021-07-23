@@ -1,0 +1,235 @@
+/* =============== FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+
+/* ======================= CSS MASTER / ANDROID ======================= */
+body {
+  background-color: #2f4f4f;
+}
+body h1 {
+  font-family: "Great Vibes", cursive;
+}
+body p {
+  font-size: 13px;
+}
+section {
+  padding-top: 3rem;
+}
+/* Cover atau Foto */
+.foto {
+  margin-top: -100px;
+}
+.undangan {
+  padding-top: 2rem;
+}
+.undangan h1,
+h3 {
+  color: #2f4f4f;
+}
+.undangan h3 {
+  font-size: 16px;
+  font-family: "Cinzel", serif;
+}
+.undangan h1 {
+  font-size: 32px;
+  text-shadow: 2px 2px #ffde80;
+}
+
+/* wave (gelombang atas) */
+.gelombang-atas {
+  margin-top: -84px;
+}
+.gelombang-bawah {
+  margin-top: 0px;
+}
+
+/* Doa */
+.icon {
+  font-size: 50px;
+  color: #ffde80;
+}
+.surat-sarrum {
+  color: white;
+}
+
+/* Mempelai atau Nama Pengantin */
+.mempelai h1 {
+  color: #ffde80;
+}
+.mempelai p {
+  margin: 0px;
+  color: white;
+}
+
+/* Jadwal akad dan resepsi */
+#akad-resepsi {
+  padding-bottom: 1rem;
+  background-color: #ffde80;
+}
+#akad-resepsi h2 {
+  font-size: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#akad-resepsi h1,
+h5,
+h2 {
+  font-family: "Viga", sans-serif;
+  color: #2f4f4f;
+}
+#akad-resepsi h5 {
+  font-size: 13px;
+}
+.lokasi {
+  border-radius: 50px;
+  border-color: #2f4f4f;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#akad-resepsi {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+#akad-resepsi .card {
+  background-color: #ffde80;
+  border: 0;
+}
+
+/* time */
+.time {
+  color: white;
+}
+
+/* kirim ucapan */
+.ucapan {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+}
+.ucapan .btn {
+  background-color: #2f4f4f;
+}
+.input-text {
+  background-color: #f0f0f0;
+  border: 0px;
+}
+/* ======================= Akhir CSS MASTER / ANDROID ======================= */
+
+/* ======================= CSS iPAD ======================= */
+@media (min-width: 768px) {
+  body p {
+    font-size: 18px;
+  }
+  /* Cover atau Foto */
+  .foto {
+    margin-top: -100px;
+  }
+  .undangan {
+    padding-top: 5rem;
+  }
+  .undangan h1,
+  h3 {
+    color: #2f4f4f;
+  }
+  .undangan h3 {
+    font-size: 36px;
+    font-family: "Cinzel", serif;
+  }
+  .undangan h1 {
+    font-size: 80px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  /* wave (gelombang atas) */
+  .gelombang-atas {
+    margin-top: -160px;
+  }
+  .gelombang-bawah {
+    margin-top: 0px;
+  }
+
+  /* Doa */
+  .icon {
+    font-size: 50px;
+    color: #ffde80;
+  }
+  .surat-sarrum {
+    color: white;
+  }
+
+  /* Mempelai atau Nama Pengantin */
+  .mempelai h1 {
+    color: #ffde80;
+    font-size: 40px;
+  }
+  .mempelai p {
+    margin: 0px;
+    color: white;
+  }
+
+  /* Jadwal akad dan resepsi */
+  #akad-resepsi {
+    padding-bottom: 1rem;
+    background-color: #ffde80;
+  }
+  #akad-resepsi h2 {
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #akad-resepsi h1 {
+    font-size: 25px;
+  }
+  #akad-resepsi h1,
+  h5,
+  h2 {
+    font-family: "Viga", sans-serif;
+    color: #2f4f4f;
+  }
+  #akad-resepsi h5 {
+    font-size: 13px;
+  }
+  .lokasi {
+    border-radius: 50px;
+    border-color: #2f4f4f;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #akad-resepsi {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+  #akad-resepsi .card {
+    background-color: #ffde80;
+    border: 0;
+  }
+
+  /* time */
+  .time {
+    color: white;
+  }
+
+  /* kirim ucapan */
+  .ucapan {
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .ucapan .btn {
+    background-color: #2f4f4f;
+  }
+  .input-text {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+}
+/* ======================= CSS iPAD ======================= */
