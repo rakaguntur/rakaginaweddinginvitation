@@ -1,0 +1,1026 @@
+/* =============== FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+
+/* ======================================== CSS MASTER ======================================== */
+body {
+  margin: 0 auto;
+  background-color: #2f4f4f;
+}
+
+body h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(../img/rakagina.jpg);
+  background-size: cover;
+  height: 780px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+svg {
+  position: absolute;
+  width: 100vw;
+  margin-top: -87px;
+}
+
+/* We Are Getting Married */
+.getting-married {
+  text-shadow: rgb(39, 39, 39);
+  margin-top: 50px;
+  width: 80%;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  border-radius: 2px;
+  text-shadow: 2px 2px #ffde80;
+}
+
+.getting-married p,
+h1,
+h2,
+h3 {
+  margin: 1px;
+  color: #2f4f4f;
+}
+.getting-married p {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+
+/* Quran atau Doa */
+#quran {
+  padding-top: 2rem;
+  width: 100%;
+  color: white;
+}
+#quran p {
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+/* pasangan */
+#pasangan {
+  padding-bottom: 5rem;
+}
+#pasangan h1 {
+  padding-top: 2rem;
+  font-size: 32px;
+  color: #ffde80;
+}
+#pasangan p {
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.jadwal-acara {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  background-color: #ffde80;
+}
+
+.jadwal-acara h1 {
+  color: #2f4f4f;
+  padding-bottom: 1rem;
+  font-family: "Viga", sans-serif;
+  font-size: 32px;
+}
+
+.jadwal-acara p {
+  margin: 0px;
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+}
+/* Akhir CSS Pasangan */
+
+/* Save The Time */
+#savethetime {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#savethetime h1 {
+  color: white;
+}
+
+.ucapan {
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.form-control {
+  background-color: #f0f0f0;
+  border: 0px;
+}
+
+.ucapan h1,
+p {
+  color: black;
+}
+
+.thankyou h1 {
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+  color: white;
+}
+
+.btn {
+  background-color: #2f4f4f;
+}
+
+.footer {
+  background-color: white;
+}
+
+.footer p {
+  color: black;
+}
+/* ======================================== AKHIR CSS MASTER ======================================== */
+
+/* ======================================== CSS UNTUK ANDROID ======================================== */
+@media (min-width: 360px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -60px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 50px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 2rem;
+    font-size: 25px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 30px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou h1 {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+}
+/* ======================================== AKHIR CSS ANDROID ========================================  */
+
+/* ======================================== CSS UNTUK IPHONE 5/SE DAN GALAXY FOLD ======================================== */
+@media (min-width: 270px) and (max-width: 359.98px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -51px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 50px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+    font-size: 13px;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 2rem;
+    font-size: 20px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 25px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 14px;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou h1 {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  .footer {
+    background-color: white;
+  }
+
+  .footer p {
+    color: black;
+  }
+}
+/* ======================================== AKHIR CSS UNTUK IPHONE 5/SE DAN GALAXY FOLD ======================================== */
+
+/* ======================================== CSS UNTUK SURFACE DUO ======================================== */
+@media (min-width: 540px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -87px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 50px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 2rem;
+    font-size: 32px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 16px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 32px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou h1 {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  .footer {
+    background-color: white;
+  }
+
+  .footer p {
+    color: black;
+  }
+}
+
+/* ======================================== AKHIR CSS SURFACE DUO ======================================== */
+
+/* ======================================== CSS UNTUK IPAD ======================================== */
+@media (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 55px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -120px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 140px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+    font-size: 26px;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 2rem;
+    font-size: 44px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 17px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 24px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou h1 {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: white;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  .footer {
+    background-color: white;
+  }
+
+  .footer p {
+    color: black;
+  }
+}
+/* ======================================== AKHIR CSS IPAD ======================================== */
+
+/* ======================================== CSS UNTUK IPAD PRO ======================================== */
+@media (min-width: 1024px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 130px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -170px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 200px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+    font-size: 46px;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 3rem;
+    font-size: 64px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 26px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 28px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+    font-size: 58px;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .ucapan h1 {
+    font-size: 68px;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  .thankyou h1 {
+    color: white;
+    font-size: 68px;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  #footer {
+    background-color: white;
+    padding-bottom: 2rem;
+  }
+
+  #footer p {
+    font-size: 28px;
+    color: black;
+  }
+}
+/* ======================================== AKHIR CSS IPAD PRO ======================================== */
+
+/* ======================================== CSS DEKSTOP ======================================== */
+@media (min-width: 1200px) {
+  body {
+    margin: 0 auto;
+    background-color: #2f4f4f;
+  }
+
+  body h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 130px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    background-image: url(../img/rakagina.jpg);
+    background-size: cover;
+    height: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  svg {
+    position: absolute;
+    width: 100vw;
+    margin-top: -220px;
+  }
+
+  /* We Are Getting Married */
+  .getting-married {
+    text-shadow: rgb(39, 39, 39);
+    margin-top: 200px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    border-radius: 2px;
+    text-shadow: 2px 2px #ffde80;
+  }
+
+  .getting-married p,
+  h1,
+  h2,
+  h3 {
+    margin: 1px;
+    color: #2f4f4f;
+  }
+  .getting-married p {
+    font-family: "Cinzel", serif;
+    font-size: 46px;
+  }
+
+  /* Quran atau Doa */
+  #quran {
+    padding-top: 2rem;
+    width: 100%;
+    color: white;
+  }
+  #quran p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+  }
+
+  /* pasangan */
+  #pasangan {
+    padding-bottom: 5rem;
+  }
+  #pasangan h1 {
+    padding-top: 3rem;
+    font-size: 64px;
+    color: #ffde80;
+  }
+  #pasangan p {
+    color: white;
+    margin: 0px;
+    font-size: 26px;
+  }
+
+  .jadwal-acara {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #ffde80;
+  }
+
+  .jadwal-acara h1 {
+    color: #2f4f4f;
+    padding-bottom: 1rem;
+    font-family: "Viga", sans-serif;
+    font-size: 28px;
+  }
+
+  .jadwal-acara p {
+    margin: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+  }
+  /* Akhir CSS Pasangan */
+
+  /* Save The Time */
+  #savethetime {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  #savethetime h1 {
+    color: white;
+    font-size: 58px;
+  }
+
+  .ucapan {
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .ucapan h1 {
+    font-size: 68px;
+  }
+
+  .form-control {
+    background-color: #f0f0f0;
+    border: 0px;
+  }
+
+  .ucapan h1,
+  p {
+    color: black;
+  }
+
+  .thankyou {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  .thankyou h1 {
+    color: white;
+    font-size: 68px;
+  }
+
+  .btn {
+    background-color: #2f4f4f;
+  }
+
+  #footer {
+    background-color: white;
+    padding-bottom: 2rem;
+  }
+
+  #footer p {
+    font-size: 28px;
+    color: black;
+  }
+}
+/* ======================================== AKHIR CSS DEKSTOP ======================================== */
